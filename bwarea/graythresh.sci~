@@ -1,0 +1,4 @@
+function threshold = graythresh(I)
+    // Example code to calculate the threshold of a grayscale image
+    threshold = mean(I) / 255;
+endfunction
